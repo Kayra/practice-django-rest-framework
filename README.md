@@ -26,6 +26,9 @@ source venv/bin/activate
 
 # Install the Python dependencies
 pip install -r requirements.txt
+
+# Create an inital database
+python tutorial/manage.py migrate
 ```
 
 ### Running the local development server
